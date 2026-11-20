@@ -1,0 +1,94 @@
+# Baromètre des sites d'artisans du bâtiment — données
+
+**Mesure :** 29 septembre 2026
+**Échantillon :** 1 030 sites d'entreprises artisanales françaises
+**Méthode :** parc aléatoire constitué depuis OpenStreetMap, page d'accueil de chaque site chargée dans un navigateur réel (DOM rendu, pas le HTML brut)
+**Marge d'erreur :** ± 2,6 points de pourcentage (intervalle de confiance à 95 %)
+
+---
+
+## Pourquoi un navigateur réel, et pas le HTML brut
+
+Une part importante de ce qu'on veut mesurer n'existe pas dans le code source : un
+formulaire construit en JavaScript, un numéro de téléphone injecté côté client, une
+bannière de cookies affichée après chargement.
+
+Mesurer sur le HTML brut produit donc des chiffres **faux dans le sens qui arrange** :
+on conclut qu'un site n'a pas de formulaire alors qu'il en a un.
+
+Chaque indicateur a été étalonné sur un banc d'essai avant d'être utilisé à l'échelle
+(`banc_detecteurs.py`). Ce banc commence par vérifier qu'il sait **refuser** quatre
+détecteurs volontairement cassés — « toujours vrai », « toujours faux », « toujours la
+classe majoritaire », « au hasard ». Si l'un des quatre passe, la validation est bloquée.
+
+Le contrôle le plus utile est le **gain sur la majorité** : un détecteur peut afficher
+95 % d'accord et ne rien distinguer du tout. Son chiffre est alors un artefact de la
+fréquence de la classe, pas une mesure.
+
+---
+
+## Fichiers
+
+### `barometre-indicateurs.csv`
+
+22 indicateurs mesurés, avec effectif, pourcentage et intervalle de confiance à 95 %.
+
+| Colonne | Contenu |
+|---|---|
+| `indicateur` | identifiant technique |
+| `libelle` | ce qui est mesuré, en clair |
+| `sites_concernees` | nombre de sites dans ce cas |
+| `sur_total` | 1 030 |
+| `pourcentage` | part de l'échantillon |
+| `ic_bas_95` / `ic_haut_95` | bornes de l'intervalle de confiance à 95 % |
+
+### `barometre-par-metier.csv`
+
+Découpage par corps de métier, sur les 3 indicateurs les plus parlants.
+
+| Colonne | Contenu |
+|---|---|
+| `metier` | corps de métier |
+| `sites_mesures` | effectif pour ce métier |
+| `sans_tel_cliquable` / `pct_sans_tel` | aucun numéro appelable en un clic |
+| `sans_formulaire` / `pct_sans_formulaire` | aucun champ de formulaire |
+| `sans_siret` / `pct_sans_siret` | aucun SIRET affiché |
+| `chargement_median_s` | temps de chargement médian observé |
+
+---
+
+## Ce que ces données ne disent pas
+
+- **Ce n'est pas un audit de conformité.** Un site sans politique de confidentialité
+  n'est pas nécessairement hors-la-loi : tout dépend de ce qu'il collecte et de la
+  base légale. Les chiffres disent « ce qui est en place », pas « ce qui est permis ».
+- **Le SIRET n'est pas obligatoire partout.** 96,5 % de sites sans SIRET ne signifie pas
+  96,5 % de sites en infraction. La mention est requise dans certains cas seulement.
+- **Le fichier ne contient aucune donnée nominative.** Ni raison sociale, ni nom de
+  dirigeant, ni adresse. Les domaines mesurés ne sont pas publiés : associer un domaine
+  à un constat de défaut reviendrait à désigner publiquement une entreprise.
+- **Les taux sont des photographies.** Ils décrivent le 29 septembre 2026. Un site
+  corrigé depuis n'est plus concerné.
+
+---
+
+## Réutilisation
+
+Ces données sont **librement réutilisables**, y compris commercialement, à condition de
+citer la source :
+
+> Site Digital Pro — Baromètre des sites d'artisans du bâtiment, septembre 2026.
+> 1 030 sites, échantillon aléatoire OpenStreetMap, navigateur réel. Marge ± 2,6 pts.
+> https://sitedigitalpro.com/barometre-artisans-batiment/
+
+Merci d'indiquer la taille de l'échantillon et la marge d'erreur : un pourcentage cité
+sans son effectif perd son sens.
+
+---
+
+## Contact
+
+Stéphane Lueger — info@sitedigitalpro.com
+
+Des coupes supplémentaires (par région, par tranche de population de commune) peuvent
+être produites sur demande.

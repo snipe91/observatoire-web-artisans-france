@@ -1,0 +1,33 @@
+cff-version: 1.2.0
+message: "Si vous réutilisez ces jeux de données ou rapports, veuillez citer cet observatoire comme indiqué ci-dessous."
+title: "Observatoire Open-Data : Conformité RGPD, performance mobile et visibilité Google / IA (GEO) des sites d'artisans et TPE en France"
+authors:
+  - family-names: Lueger
+    given-names: Stéphane
+    affiliation: "Site Digital Pro - Observatoire Numérique des Artisans & TPE"
+  - name: "Site Digital Pro"
+version: "1.0.0"
+doi: "10.5281/zenodo.24284538"
+date-released: "2026-11-20"
+license: "CC-BY-4.0"
+url: "https://sitedigitalpro.com/etudes/"
+repository-code: "https://github.com/snipe91/observatoire-web-artisans-france"
+keywords:
+  - rgpd
+  - seo-local
+  - artisans
+  - tpe
+  - open-data
+  - france
+  - cnil
+  - generative-engine-optimization
+references:
+  - type: report
+    title: "Les sites des artisans du bâtiment amènent-ils vraiment des clients ? (1 030 sites)"
+    url: "https://sitedigitalpro.com/barometre-artisans-batiment/"
+  - type: report
+    title: "Baromètre 2026 du site web des TPE françaises (600 sites)"
+    url: "https://sitedigitalpro.com/barometre-tpe-2026/"
+  - type: report
+    title: "Baromètre des sanctions CNIL 2011-2026 (395 sanctions)"
+    url: "https://sitedigitalpro.com/barometre-sanctions-cnil/"

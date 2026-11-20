@@ -1,0 +1,44 @@
+dimension,cle,sanctions_nombre,part_pct,montant_eur,notes
+global,sanctions_recensees_2011_2026,395,100.0,,Total des sanctions publiées par la CNIL (2011-2026)
+global,sanctions_pecuniaires_chiffrees,268,67.85,1118238301,268 sanctions pécuniaires chiffrées cumulées hors astreintes
+global,montant_cumule_avec_astreintes_eur,268,,1123589051,Montant cumulé incluant les liquidations d'astreinte
+global,amende_mediane_eur,,,15000,Amende médiane (moyenne > 4 100 000 EUR)
+global,amende_maximale_eur,1,,325000000,Record absolu prononcé en 2025
+global,part_cookies_montant_total,,81.1,907074000,Part financière des manquements cookies/traceurs sur le montant total
+global,concentration_top_10_sanctions,10,85.8,960000000,Les 258 autres sanctions chiffrées totalisent 158 238 301 EUR
+annee,2026 (au 10/09),16,,47068500,Année en cours au 10 septembre 2026
+annee,2025,83,,486811500,Année record en montant cumulé
+annee,2024,87,,55155500,Pic en volume de dossiers sanctionnés
+annee,2023,42,,83969500,Accélération marquée par rapport à 2020-2022
+annee,2022,22,,101273000,
+annee,2021,18,,214041000,
+annee,2020,15,,78489300,
+annee,2015,9,,65000,
+annee,2011,8,,0,Montants non publiés par la CNIL en 2011 (ainsi qu'en 2016-2018)
+motif,Sécurité / violation de données,140,35.4,,Premier motif par fréquence sur 395 dossiers
+motif,Information et transparence des personnes,101,25.6,,
+motif,"Droits des personnes (accès, effacement…)",89,22.5,,
+motif,Défaut de coopération avec la CNIL,75,19.0,,
+motif,Cookies / traceurs / consentement,73,18.5,907074000,"5e motif par fréquence mais 1er poste financier (81,1 %)"
+motif,Durée de conservation des données,67,17.0,,
+motif,Base légale / licéité du traitement,60,15.2,,
+motif,Vidéosurveillance,35,8.9,,
+top10_amende,Rang 1 (2025),1,,325000000,"Information et consentement (cookies), prospection commerciale"
+top10_amende,Rang 2 (2025),1,,150000000,Information et consentement (cookies)
+top10_amende,Rang 3 (2021),1,,150000000,Modalités de refus des cookies
+top10_amende,Rang 4 (2022),1,,60000000,Consentement (cookies et traceurs)
+top10_amende,Rang 5 (2021),1,,60000000,"Modalités de refus des cookies, information des personnes"
+top10_amende,Rang 6 (2024),1,,50000000,"Information des personnes, prospection commerciale"
+top10_amende,Rang 7 (2019),1,,50000000,"Manque de transparence, absence de consentement valable"
+top10_amende,Rang 8 (2023),1,,40000000,"Consentement, information et transparence"
+top10_amende,Rang 9 (2020),1,,40000000,"Cookies, information des personnes"
+top10_amende,Rang 10 (2020),1,,35000000,"Cookies, information des personnes"
+secteur,Internet / numérique / télécoms,92,,1089568500,Déduction automatique par mots-clés depuis libellé CNIL
+secteur,Secteur public / collectivités,42,,5583000,Déduction automatique par mots-clés depuis libellé CNIL
+secteur,Commerce / distribution / e-commerce,51,,5328500,Déduction automatique par mots-clés depuis libellé CNIL
+secteur,Banque / assurance / finance,18,,4478000,Déduction automatique par mots-clés depuis libellé CNIL
+secteur,Conseil / services aux entreprises,19,,3920000,Déduction automatique par mots-clés depuis libellé CNIL
+secteur,Santé,35,,2333500,Déduction automatique par mots-clés depuis libellé CNIL
+secteur,Marketing / publicité,10,,1804300,Déduction automatique par mots-clés depuis libellé CNIL
+secteur,Hôtellerie / restauration / tourisme,15,,1081000,Déduction automatique par mots-clés depuis libellé CNIL
+secteur,Immobilier / construction / BTP,15,,987000,Déduction automatique par mots-clés depuis libellé CNIL

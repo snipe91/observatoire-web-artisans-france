@@ -1,0 +1,12 @@
+indicateur_id,categorie,libelle,valeur,unite,sites_concernes,echantillon_total,constat,source_url
+disponibilite_effective,Technique,Sites disponibles (réponse HTTP valide),78.5,pct,471,600,"21,5 % des sites sont injoignables ou renvoient une erreur (DNS, timeout, 404, 5xx)",https://sitedigitalpro.com/barometre-tpe-2026/
+indisponibilite_erreur,Technique,Sites injoignables ou en erreur critique,21.5,pct,129,600,"Erreur DNS, timeout serveur, erreur 5xx ou 404",https://sitedigitalpro.com/barometre-tpe-2026/
+chiffrement_https,Technique,Chiffrement HTTPS actif (parmi les sites répondants),97.7,pct,,471,"2,3 % naviguent encore en HTTP non sécurisé ; 2,8 % présentent un certificat invalide",https://sitedigitalpro.com/barometre-tpe-2026/
+affichage_mobile_viewport,Technique,Présence d'une balise meta viewport (mobile),95.5,pct,,471,Standard technique quasi généralisé parmi les sites répondants,https://sitedigitalpro.com/barometre-tpe-2026/
+mentions_legales_presentes,Juridique (LCEN),Présence de mentions légales accessibles,65.4,pct,,471,"34,6 % des sites n'affichent aucune mention légale accessible (Art. 6-VI LCEN)",https://sitedigitalpro.com/barometre-tpe-2026/
+mentions_legales_absentes,Juridique (LCEN),Absence totale de mentions légales accessibles,34.6,pct,,471,Obligation légale manquante (LCEN),https://sitedigitalpro.com/barometre-tpe-2026/
+politique_confidentialite_presente,Juridique (RGPD),Présence d'une politique de confidentialité,47.1,pct,,471,"52,9 % des sites audités n'ont aucune politique de confidentialité",https://sitedigitalpro.com/barometre-tpe-2026/
+politique_confidentialite_absente,Juridique (RGPD),Absence de politique de confidentialité conforme RGPD,52.9,pct,,471,Manquement aux articles 12 et 13 du RGPD sur un site collectant des données,https://sitedigitalpro.com/barometre-tpe-2026/
+poids_html_median,Performance,Poids médian de la charge utile HTML initiale,115.4,Ko,,471,Hors assets externes ; fortes disparités sur constructeurs de pages lourds,https://sitedigitalpro.com/barometre-tpe-2026/
+temps_reponse_median,Performance,Temps de réponse HTTP médian,0.93,s,,471,"Médiane à 0,93 s, moyenne dégradée à 1,44 s",https://sitedigitalpro.com/barometre-tpe-2026/
+temps_reponse_moyen,Performance,Temps de réponse HTTP moyen,1.44,s,,471,Tire la moyenne vers le haut en raison des hébergements lents,https://sitedigitalpro.com/barometre-tpe-2026/

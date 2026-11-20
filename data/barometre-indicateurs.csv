@@ -1,0 +1,22 @@
+indicateur;libelle;sites_concernees;sur_total;pourcentage;ic_bas_95;ic_haut_95
+siret;pas de numéro SIRET affiché;994;1030;96,5;95,2;97,5
+llms;pas de llms.txt;857;1030;83,2;80,8;85,4
+a_un_formulaire;a au moins un formulaire quelque part sur le site;839;1030;81,5;79,0;83,7
+jsonld_metier;pas de balisage d'activité (JSON-LD métier);796;1030;77,3;74,6;79,7
+politique;pas de politique de confidentialité;657;1030;63,8;60,8;66,7
+n_mailto;aucun lien email (mailto:);636;1030;61,7;58,7;64,7
+adresse;pas d'adresse postale;478;1030;46,4;43,4;49,5
+n_tel;aucun numéro cliquable (tel:);416;1030;40,4;37,4;43,4
+mentions;pas de mentions légales;276;1030;26,8;24,2;29,6
+cta;aucun appel à l'action visible;275;1030;26,7;24,1;29,5
+canonical;pas d'URL canonique;211;1030;20,5;18,1;23,1
+n_champs;aucun champ de formulaire sur la page testée;192;1030;18,6;16,4;21,1
+deborde;contenu qui déborde du cadre (mobile);188;1030;18,3;16,0;20,7
+page_formulaire;n'a AUCUNE page avec formulaire;183;1030;17,8;15,6;20,2
+sitemap;pas de sitemap déclaré;177;1030;17,2;15,0;19,6
+meta_desc;pas de meta description;170;1030;16,5;14,4;18,9
+h1_count;plusieurs H1 sur la même page;156;1030;15,1;13,1;17,5
+robots;pas de fichier robots.txt;131;1030;12,7;10,8;14,9
+lang;pas d'attribut lang sur le html;47;1030;4,6;3,4;6,0
+title;pas de balise title;9;1030;0,9;0,5;1,7
+https;pas en HTTPS;1;1030;0,1;0,0;0,5
