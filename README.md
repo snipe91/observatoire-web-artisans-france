@@ -34,12 +34,15 @@ Données ouvertes et rapports empiriques mesurant la présence en ligne, la capa
 
 ---
 
-## Ressources & Outils Gratuits Associés
+## Ressources & Guides par Métier
 
 - [Création de site internet pour artisans du bâtiment](https://sitedigitalpro.com/creation-site-web-artisan/)
-- [Forfaits transparents et propriété WordPress](https://sitedigitalpro.com/nos-forfaits/)
+- [Création de site internet pour plombier](https://sitedigitalpro.com/creation-site-web-plombier/)
+- [Création de site internet pour électricien](https://sitedigitalpro.com/creation-site-web-electricien/)
+- [Création de site internet pour restaurant](https://sitedigitalpro.com/creation-site-web-restaurants/)
+- [Location ou achat d'un site d'artisan : le vrai comparatif sur 3 ans](https://sitedigitalpro.com/location-site-web-ou-achat-artisan/)
+- [Forfaits transparents et propriété WordPress (dès 1 500 €)](https://sitedigitalpro.com/nos-forfaits/)
 - [Mise en conformité RGPD d'un site web](https://sitedigitalpro.com/mise-en-conformite-rgpd/)
-- [Scanner gratuit de conformité RGPD (rgpd-audit.com)](https://rgpd-audit.com)
 - [Test gratuit de visibilité Google & IA](https://sitedigitalpro.com/test-visibilite-site/)
 
 ---
